@@ -1,9 +1,9 @@
-The AppDorm project
--a private market for Android apps
+h1. The AppDorm project - a private market for Android apps
 
 This project is designed to produce a website that can be used to setup private Android app markets quickly and easily. The code is open source and can be used by small companies, large companies, government agencies, and private individuals.
 
 h2. Help Wanted
+
 The code for AppDorm is written by volunteers and we need your help.
 
 Architect - We need an experience architect to design the website software for AppDorm. You will have the chance to decide which technologies are used to build this website. Do you want to use Ruby on Rails, PHP, MySQL, PostgreSQL, MongoDB, Java? You will decide. Please contact the admin with your details.

@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <title>AppDorm - Upload an APK</title>
+
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=yes" />
+    
+    <link rel="stylesheet" href="main.css" media="screen" />
+</head>
+<body>
+
+<h1>AppDorm</h1>
+<p>a private market for Android apps</p><br>
+    
+    <span class="section-header">
+      <div class="img-left"><img src="Android_Market.png" width="64px"/></div>
+      <h2>Upload an APK</h2>
+    </span>
+    <img src="market-green-full-rule.png" width="450px"/>
+    <br/>
+    <br/>
+
+<form enctype="multipart/form-data" method="post" id='apk-form'>
+<label for="id_binary">Build file (APK)</label>
+<input type="file" name="binary" id="id_binary" />
+<p>
+<label for="id_description">Release notes</label>
+<br/>
+<textarea id="id_description" rows="10" cols="40" name="description">What's new in this build?</textarea>
+</p>
+<input type="submit" value="Upload"/>
+</form>
+
+</body>
+</html>

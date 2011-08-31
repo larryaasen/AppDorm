@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  
+  <head>
+    <title>AppDorm - Register</title>
+
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=yes" />
+    
+    <link rel="stylesheet" href="main.css" media="screen" />
+  </head>
+<body>
+    
+    <h1>AppDorm</h1>
+    <p>a private market for Android apps</p><br>
+    
+    <span class="section-header">
+      <div class="img-left"><img src="Android_Market.png" width="64px"/></div>
+      <h2>Register</h2>
+    </span>
+    <img src="market-green-full-rule.png" width="450px"/>
+    <br/>
+    <br/>
+            
+<form method="post">
+    
+<label for="id_first_name">First Name</label>
+<input name="first_name" maxlength="30" autocapitalize="on" autocorrect="off" type="text" id="id_first_name" />
+<label for="id_last_name">Last Name</label>
+<input name="last_name" maxlength="30" autocapitalize="on" autocorrect="off" type="text" id="id_last_name" />
+<br/>
+
+<label for="id_email">Email Address</label>
+<input name="email" maxlength="75" autocapitalize="off" autocorrect="off" type="email" id="id_email" />
+AppDorm will use this address to authenticate and notify you of new builds.
+<br/>
+
+<label for="id_confirm_email">Confirm Email</label>
+<input name="confirm_email" maxlength="75" autocapitalize="off" autocorrect="off" type="email" id="id_confirm_email" />
+Please confirm your email address.
+<br/>
+        
+<label for="id_password1">Password</label>
+<input name="password1" autocapitalize="off" autocorrect="off" type="password" id="id_password1" />
+
+<label for="id_password2">Confirm</label>
+<input name="password2" autocapitalize="off" autocorrect="off" type="password" id="id_password2" />
+<br/>
+
+<label for="id_developer">I am a developer</label>
+<input type="checkbox" name="developer" id="id_developer" />
+If you would like to upload your own builds and invite your own testers.
+<br/>
+
+<input type="submit" value="Register" />
+</form>
+
+</body>
+</html>

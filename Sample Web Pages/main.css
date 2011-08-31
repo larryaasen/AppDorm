@@ -1,0 +1,34 @@
+/*
+** Created by Larry Aasen
+*/
+
+body {
+	font-family: Calibri,Helvetica;
+    font-size:14px;
+	text-shadow: 0 1px 0px #fff;
+	color: #555;
+	background: #BFDBF4;
+}
+
+.img-left {
+  float: left;
+  margin: 0px 5px 5px 5px;
+}
+
+.section-header {
+  line-height: 64px;
+}
+
+.build h4 {
+  font-weight: normal;
+  font-family: "AxelBold", "Lucida Grande", "Verdana", sans-serif;
+  font-size: 21px;
+  line-height: 24px;
+  color: #333333;
+  margin: 5px 0 0px 0;
+}
+
+.build .build-img {
+  float: left;
+  margin: 0px 5px 5px 5px;
+}
