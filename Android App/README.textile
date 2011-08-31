@@ -1,0 +1,7 @@
+h1. The AppDorm Android App
+
+The AppDorm project will produce an Android App that will be used to download and install apps on Android devices. Using an app for installation will ensure that installation will not fail on various devices not configured properly for app downloads via web pages.
+
+h2. Code
+
+TBD
