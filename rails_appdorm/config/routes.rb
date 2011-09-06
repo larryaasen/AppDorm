@@ -1,4 +1,8 @@
 RailsAppdorm::Application.routes.draw do
+  resources :users
+
+  resources :builds
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
