@@ -2,6 +2,7 @@ class BuildsController < ApplicationController
   # GET /builds
   # GET /builds.json
   def index
+    @page_title = "Builds"
     @builds = Build.all
 
     respond_to do |format|
@@ -13,6 +14,7 @@ class BuildsController < ApplicationController
   # GET /builds/1
   # GET /builds/1.json
   def show
+    @page_title = "Builds"
     @build = Build.find(params[:id])
 
     respond_to do |format|
@@ -24,6 +26,7 @@ class BuildsController < ApplicationController
   # GET /builds/new
   # GET /builds/new.json
   def new
+    @page_title = "Builds"
     @build = Build.new
 
     respond_to do |format|
@@ -34,12 +37,14 @@ class BuildsController < ApplicationController
 
   # GET /builds/1/edit
   def edit
+    @page_title = "Builds"
     @build = Build.find(params[:id])
   end
 
   # POST /builds
   # POST /builds.json
   def create
+    @page_title = "Builds"
     @build = Build.new(params[:build])
 
     respond_to do |format|
@@ -56,6 +61,7 @@ class BuildsController < ApplicationController
   # PUT /builds/1
   # PUT /builds/1.json
   def update
+    @page_title = "Builds"
     @build = Build.find(params[:id])
 
     respond_to do |format|
@@ -72,6 +78,7 @@ class BuildsController < ApplicationController
   # DELETE /builds/1
   # DELETE /builds/1.json
   def destroy
+    @page_title = "Builds"
     @build = Build.find(params[:id])
     @build.destroy
 
